@@ -1,0 +1,44 @@
+main {
+  position: relative;
+  padding-left: 26%;
+  margin: 0 auto;  /* centers the layout */
+}
+
+h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: B83A41;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.gallery {
+  margin: 25px;
+  float: left;
+  width: 250px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.img_title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  padding: 10px;
+  text-align: left;
+  color: skyblue;
+}
+div.desc {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  padding: 12px;
+}
