@@ -9,7 +9,7 @@ h1 {
   font-size: 18px;
   color: B83A41;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 /* Clear floats after the columns */
@@ -19,25 +19,28 @@ h1 {
   clear: both;
 }
 
-div.gallery {
-  margin: 25px;
+.gallery {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
   float: left;
   width: 250px;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
 }
 
-div.img_title {
+.img_title {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
   padding: 10px;
   text-align: left;
   color: skyblue;
 }
-div.desc {
+.desc {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: justify;
   padding: 12px;
